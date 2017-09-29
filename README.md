@@ -90,3 +90,4 @@ optional arguments:
 * final_embeddings.npy 是numpy格式的中文字矩阵, 使用numpy.load('final_embeddings.npy')来加载
 * 两个json词典文件, 是词袋模型的词典对象的json保存, 词典键为中文常用字, 值为编码, 编码所对应的下标从fianl_embeddings中取出的切片即为字向量
 * 其他是tensorflow保存文件
+
